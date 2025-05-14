@@ -5,10 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ES II</title>
     <script src="index.js"></script>
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            margin: 0 auto;
+            display: grid;
+            place-items: center;
+            font-size: x-large;
+            color: #fff;
+            background: linear-gradient(45deg, rgb(26, 79, 49), rgb(127, 72, 171), rgb(26, 79, 49), rgb(127, 72, 171), rgb(26, 79, 49));
+            background-size: 400% 400%;
+            animation: moveGradient 3s ease infinite;
+        }
+
+        @keyframes moveGradient{
+            0%{
+                background-position:  0% 50%;
+            }
+            50%{
+                background-position:  100% 50%;
+            }
+            100%{
+                background-position:  50% 0%;
+            }
+        }
+    </style>
 </head>
 <body>
-    Olá, mundo!
-    <p>Este é um parágrafo de exemplo.</p>
-    <p>Este é outro parágrafo de exemplo.</p>
+    <header>
+
+    </header>
+
+    <main>
+        Olá, mundo!
+        <p>Este é um parágrafo de exemplo.</p>
+        <p>Este é outro parágrafo de exemplo.</p>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
